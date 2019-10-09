@@ -1,0 +1,59 @@
+.selone {
+  height: 64px;
+}
+
+.selone > span {
+  display: block;
+  float: left;
+  line-height: 64px;
+  padding: 0 20px 0 40px;
+}
+
+.selone div {
+  width: 600px;
+  float: left;
+}
+
+.selone div > span {
+  display: block;
+  float: left;
+  margin-top: 20px;
+}
+
+.selone div P {
+  margin-top: 16px;
+}
+
+.selone :global .ant-checkbox-wrapper {
+  float: left;
+  margin-top: 20px;
+}
+
+.selone :global .ant-btn {
+  float: right;
+  margin: 20px 28px 0 0;
+}
+
+.tab {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.tab .table :global .ant-table-thead > tr > th {
+  background-color: #C8DBF9;
+  text-align: center;
+}
+
+.tab .table :global .ant-table-tbody > tr > td {
+  text-align: center;
+}
+
+.header {
+  height: 30px;
+  background: #C8DBF9;
+  line-height: 30px;
+}
+
+.header > span {
+  padding: 0 20px;
+}

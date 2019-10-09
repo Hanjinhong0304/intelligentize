@@ -1,0 +1,196 @@
+ul,ol,a{
+    list-style: none;
+    text-decoration: none;
+}
+.one {
+    width:100%;
+    height: 1000px;
+    background: white;
+   
+}
+.AttendanceDetails{
+    width:100%;
+    height: 300px;
+   
+}
+.attdheader{
+    width:100%;
+    height: 150px;
+    display: flex;
+    background: #eee;
+   border-bottom:2px solid #ddd;
+}
+.formatsubmitbtn{
+    width:200px;
+    height: 60px;
+    margin-left:100px;
+    line-height: 60px;
+}
+.formatsubmitbtn button{
+    margin-left:10px;
+}
+.attdheader>div{
+    width:100%;
+    text-align: center;
+    line-height: 80px;
+}
+.attds{
+    width:100%;
+    display: flex;
+    height: 300px;
+    background: white;
+}
+.AttendanceStatistics{
+    width:100%;
+    height: 500px;
+}
+.AttendanceDetails .attd1{
+    width:35%;
+}
+.AttendanceDetails .attd2{
+    flex: 1;
+}
+.tablist{
+    width:100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.tablist .tabheader{
+    width:100%;
+    height: 50px;
+    background: white;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+.tablist .tabheader ul{
+    display: flex;
+    width:89%;
+    text-align: center;
+   
+
+}
+.tablist .tabheader ul li{
+    width:100px;
+    height: 50px;
+    line-height: 60px;
+    cursor: pointer;
+}
+.tablist .tabheader button{
+    width:7%;
+    background: #eee;
+}
+.tabselect{
+    width:95%;
+    height: 150px;
+    margin :10px auto;
+    display: flex;
+
+}
+.tabselect .tableft{
+    width:70%;
+}
+.tabselect .tableft>div{
+    width:100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.tabselect .tableft p{
+    display: flex;
+    height: 40px;
+    margin-left:20px;
+    line-height: 40px;
+    width:350px;
+}
+.tabselect .tableft p:nth-child(1) span{
+    width:76px;
+}
+.tabselect .tableft p:nth-child(2) span{
+    width:76px;
+}
+
+.tabselect .tabright{
+    flex: 1;
+    display: flex;
+}
+.tabselect .tabright button{
+    width:80px;
+    height: 40px;
+    margin:50px 50px;
+}
+.tabfrom{
+    width:95%;
+    height: auto;
+    margin :0 auto;
+    display: flex;
+    flex-direction: column;
+    padding:0 10px;
+}
+.tabfrom .fromheader{
+    width:100%;
+    height: 40px;
+    line-height: 40px;
+    background: rgb(200,219,249);
+}
+.tabfrom .tabmain{
+    flex: 1;
+}
+
+.allproject{
+    width:100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.allproject>div{
+    width:48%;
+    height: 400px;
+    flex-shrink: 0;
+    background: white;
+    margin:10px 10px;
+}
+.allproject .countproject,.addesproject {
+    box-sizing: border-box;
+    padding-left:10px;
+}
+.allproject .countproject h4{
+    border-left:3px solid blue;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.allproject .countproject h4 span:nth-child(1){
+    color:blue
+}
+.allproject .countproject h4 span:nth-child(2){
+    color:#bbb;
+}
+.allproject .countproject h1{
+    width:100%;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 40px;
+    color:orange;
+}
+.allproject .countproject p{
+    text-align: center;
+}
+
+.allproject .addesproject h4{
+    border-left:3px solid blue;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.allproject .addesproject h4 span:nth-child(1){
+    color:blue
+}
+.allproject .addesproject h4 span:nth-child(2){
+    color:#bbb;
+}

@@ -1,0 +1,20 @@
+.review_box{
+    width: 100%;
+    height: 100%;
+}
+.top{
+    width: 100%;
+    height: 40px;
+    background: #D9DCE1;
+    display: flex;
+    >div{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding: 0 22px;
+        color:#A4A4A4;
+    }
+    .active{
+        background: #fff;
+    }
+}

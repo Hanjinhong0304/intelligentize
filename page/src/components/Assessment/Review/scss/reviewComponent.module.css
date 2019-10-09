@@ -1,0 +1,29 @@
+.reviewComponent {
+  width: 100%;
+}
+
+.reviewComponent :global .ant-tabs-bar {
+  margin-top: 0;
+}
+
+.reviewComponent :global .ant-tabs-nav-scroll {
+  background: #fff;
+}
+
+.reviewComponent :global .ant-tabs-nav-scroll .ant-tabs-tab {
+  width: 134px;
+  text-align: center;
+  border: 0;
+}
+
+.reviewComponent :global .ant-tabs-nav-scroll .ant-tabs-tab i {
+  padding-left: 5px;
+}
+
+.reviewComponent :global .ant-tabs-nav-scroll .ant-tabs-tab-active {
+  color: #000;
+}
+
+.reviewComponent :global .ant-tabs-nav-scroll .ant-tabs-extra-content {
+  display: none;
+}

@@ -1,0 +1,33 @@
+.form{
+    height: 62px;
+    line-height: 62px;
+    :global{
+        .ant-form-item{
+            float: left;
+            width: 192px;
+            margin: 17px;
+            .ant-form-item-label{
+                width: 40px;
+                float: left;
+            }
+            input{
+                width: 144px;
+                float: left;
+                height: 30px;
+                margin-top: 5px;
+            }
+            button{
+                background: #F59131;
+                border: 0;
+                height: 30px;
+                padding-top: -10px;
+            }
+        }
+        
+    }
+}
+.pic{
+    background: white;
+    width: 96%;
+    margin: 20px auto;
+}

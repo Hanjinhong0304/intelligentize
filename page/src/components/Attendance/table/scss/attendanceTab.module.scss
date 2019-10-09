@@ -1,0 +1,55 @@
+.selone{
+    height: 64px;
+    >span{
+        display: block;
+        float: left;
+        line-height: 64px;
+        padding: 0 20px 0 40px;
+    }
+    div{
+        width: 600px;
+        float: left;
+        >span{
+            display: block;
+            float: left;
+            margin-top: 20px;
+        }
+        P{
+            margin-top: 16px;
+        }
+    }
+    :global{
+        .ant-checkbox-wrapper{
+            float: left;
+            margin-top: 20px;
+        }
+        .ant-btn{
+            float: right;
+            margin: 20px 28px 0 0;
+        }
+    }
+}
+.tab{
+    width: 96%;
+    margin: 0 auto;
+    .table{
+       
+        :global {
+            .ant-table-thead > tr > th {
+                background-color: #C8DBF9;
+                text-align: center;
+            }
+            .ant-table-tbody > tr >td{
+                text-align: center;
+            }
+        }
+    }
+}
+.header{
+    height: 30px;
+    background: #C8DBF9;
+    line-height: 30px;
+    >span{
+        padding: 0 20px;
+    }
+}

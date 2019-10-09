@@ -1,0 +1,54 @@
+export const checkWorkData=[
+    {
+        title:"出勤",
+        persons:"0次"
+    },
+    {
+        title:"请假",
+        persons:"0次"
+    },
+    {
+        title:"出差",
+        persons:"0次"
+    },
+    {
+        title:"迟到",
+        persons:"0次"
+    },
+    {
+        title:"外出",
+        persons:"0小时"
+    },
+    {
+        title:"加班",
+        persons:"0小时"
+    }
+  ];
+export const dailyData=[
+      {
+          title:"已交",
+          persons:"23篇"
+      },
+      {
+          title:"未交",
+          persons:"0人"
+      },
+      {
+          title:"应交",
+          persons:"23篇"
+      }
+  ];
+export const clienteleData=[
+    {
+        title:"客户总数",
+        persons:"300家"
+    },
+    {
+        title:"新增客户数",
+        persons:"50家"
+    },
+    {
+        title:"拜访客户数",
+        persons:"30家"
+    }
+]

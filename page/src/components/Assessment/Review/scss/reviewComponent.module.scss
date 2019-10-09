@@ -1,0 +1,27 @@
+.reviewComponent{
+    width: 100%;
+    :global{
+        .ant-tabs-bar{
+            margin-top: 0;
+        }
+        .ant-tabs-nav-scroll{
+             background: #fff;
+           
+             .ant-tabs-tab{
+                 width: 134px;
+                 text-align: center;
+                 border: 0;
+                 i{
+                     padding-left: 5px;
+                 }
+             }
+             .ant-tabs-tab-active{
+               
+                 color: #000;
+             }
+             .ant-tabs-extra-content{
+                display: none;
+            }
+        }
+    }
+}

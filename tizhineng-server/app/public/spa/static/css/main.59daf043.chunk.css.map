@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAKA,sBACE,UAAW,CACX,WACF","file":"main.59daf043.chunk.css","sourcesContent":[".loading {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.loading > img {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n"]}
